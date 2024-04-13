@@ -1,4 +1,5 @@
 //April 12 of 2024
+//EVERY DAY I AM HUSTLING
 //Mario Acosta Automation process 
 
 const puppeteer = require('puppeteer');
