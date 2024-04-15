@@ -42,8 +42,8 @@ async function launchBrowserAndNavigateToDocument() {
         }
     });
 
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    console.log('Waited for 2 seconds.');
+    await new Promise(resolve => setTimeout(resolve, 10000));
+    console.log('Waiting another 10 seconds.');
 
     await newPage.evaluate(() => {
         const thirdButton = document.querySelectorAll('.documents-filter-icon')[2];
